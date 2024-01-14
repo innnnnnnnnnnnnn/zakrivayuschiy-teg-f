@@ -529,3 +529,32 @@
   width: 293px;
   height: 38px;
 }
+
+
+.brightness{
+  filter: brightness(70%);
+}
+
+.blur{
+  filter: blur(1px);
+}
+
+.opacity{
+  filter: opacity(0.7);
+}
+
+.saturate{
+  filter: saturate(120%);
+}
+
+.hue__rotate{
+  filter: hue-rotate(100deg);
+}
+
+.grayscale{
+  filter: grayscale(100%);
+}
+
+.contrast{
+  filter: contrast(120%);
+}
