@@ -6,10 +6,12 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  
 }
 
 body {
   margin: 0;
+  
 }
 
 h1,
@@ -35,6 +37,7 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  padding: 0;
 }
 
 ul,
