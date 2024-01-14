@@ -504,3 +504,7 @@
 .contrast {
   filter: contrast(120%);
 }
+
+.multiple {
+  filter: opacity(0.7) blur(1px);
+}
