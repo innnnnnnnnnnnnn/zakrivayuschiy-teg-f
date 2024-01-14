@@ -5,102 +5,61 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
-
-:root.theme-dark{
-    --background: #000;
-    --accent-color:#00CC14;
-    --button-text-color:#00CC14;
-    --font-weight-title:785;
-    --main-body-heart:red;
-    --font-weight-text:465;
-    --contour-heart:#00CC14;
-    --text-shadow:-1px 0 #000, 
-    0 -1px #000, 
-    1px 0 #000, 
-    0 1px #000;
-    --text-stroke:#000;
-    --background-image:
-      repeating-linear-gradient(
-            to left,
-            #000 0 2px, 
-            transparent 2px 4px
-        ),
-
-      repeating-linear-gradient(
-            to bottom,
-            #000  0 2px, 
-            transparent 2px 4px
-        ),
-            
-      linear-gradient(
-         to bottom,
-         #007f0c,
-         #004306);
-   
-        
+:root.theme-dark {
+  --background: #000;
+  --accent-color: #00cc14;
+  --button-text-color: #00cc14;
+  --font-weight-title: 785;
+  --main-body-heart: red;
+  --font-weight-text: 465;
+  --contour-heart: #00cc14;
+  --text-shadow: -1px 0 #000, 0 -1px #000, 1px 0 #000, 0 1px #000;
+  --text-stroke: #000;
+  --background-image: repeating-linear-gradient(
+      to left,
+      #000 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #007f0c, #004306);
 }
 
-:root.theme-light{
-    --font-weight-text:400;
-    --font-weight-title:700;
-    --button-text-color:#fff;
-    --background: #FFF;
-    --main-body-heart:red;
-    --accent-color:#000;
-    --contour-heart:#000;
-    --text-shadow:-1px 0 #fff, 
-    0 -1px #fff, 
-    1px 0 #fff, 
-    0 1px #fff;
-    --text-stroke:#fff;
-    --background-image:
-        repeating-linear-gradient(
-            to left,
-            #d3d3d3 0 2px, 
-            transparent 2px 4px
-        ),
-
-        repeating-linear-gradient(
-            to bottom,
-            #d3d3d3  0 2px, 
-            transparent 2px 4px
-        ),
-
-        linear-gradient(
-         to bottom,
-         #e7e7e7 0.01%,
-         #1a1a1a);
+:root.theme-light {
+  --font-weight-text: 400;
+  --font-weight-title: 700;
+  --button-text-color: #fff;
+  --background: #fff;
+  --main-body-heart: red;
+  --accent-color: #000;
+  --contour-heart: #000;
+  --text-shadow: -1px 0 #fff, 0 -1px #fff, 1px 0 #fff, 0 1px #fff;
+  --text-stroke: #fff;
+  --background-image: repeating-linear-gradient(
+      to left,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --background: #000;
-    --accent-color:#00CC14;
-    --button-text-color:#00CC14;
-    --contour-heart:#00CC14;
-    --font-weight-title:785;
-    --main-body-heart:red;
-    --font-weight-text:465;
-    --text-shadow:-1px 0 #000, 
-    0 -1px #000, 
-    1px 0 #000, 
-    0 1px #000;
-    --text-stroke:#000;
-    --background-image:
-      repeating-linear-gradient(
-            to left,
-            #000 0 2px, 
-            transparent 2px 4px
-        ),
-
-      repeating-linear-gradient(
-            to bottom,
-            #000  0 2px, 
-            transparent 2px 4px
-        ),
-            
-      linear-gradient(
-         to bottom,
-         #007f0c,
-         #004306);
-    }}
+  :root {
+    --background: #000;
+    --accent-color: #00cc14;
+    --button-text-color: #00cc14;
+    --contour-heart: #00cc14;
+    --font-weight-title: 785;
+    --main-body-heart: red;
+    --font-weight-text: 465;
+    --text-shadow: -1px 0 #000, 0 -1px #000, 1px 0 #000, 0 1px #000;
+    --text-stroke: #000;
+    --background-image: repeating-linear-gradient(
+        to left,
+        #000 0 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+      linear-gradient(to bottom, #007f0c, #004306);
+  }
+}
