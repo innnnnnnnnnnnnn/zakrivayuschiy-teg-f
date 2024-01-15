@@ -33,6 +33,7 @@
   justify-content: center;
   background-color: var(--background, #fff);
   margin-block-start: 102px;
+  margin-block-end: 107px;
   border: 2px solid #000;
 }
 
@@ -123,14 +124,14 @@
 .header__text {
   font-family: var(--PressStart2P, sans-serif);
   text-align: center;
-  font-size: 23px;
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .card {
   background: var(--background, #fff);
-  margin-block-start: 104px;
+  margin-block-start: 54px;
   height: auto;
   max-width: 696px;
   display: grid;
