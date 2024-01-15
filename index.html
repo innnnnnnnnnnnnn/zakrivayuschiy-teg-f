@@ -1,297 +1,221 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" />
-    <meta name="mobile-web-app-capable" content="yes"> 
-    <meta name="apple-mobile-web-app-capable" content="yes"> 
-    <meta name="theme-color" content="#FFFFFF"> 
-    <meta name="application-name" content="Your App Name">
-    <meta name="msapplication-TileColor" content="#FFFFFF"> 
-    <meta name="msapplication-square70x70logo" content="favicon.png"> 
-    <meta name="msapplication-square150x150logo" content="favicon@2x.png"> 
-    <meta name="msapplication-wide310x150logo" content="favicon@3x.png"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Закрывающий тег</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/animations.css" />
-    <link rel="stylesheet" href="./styles/themes.css" />
-    <link rel="icon" type="image/png" href="svg/favicon ico.svg"> 
-    <script src="./scripts/set-theme.js"></script>
-  </head>
-  <body class="page">
-    <header class="header">
-      <h1 class="title"> &lt;/HTML&gt;</h1>
-      <p class="header__text">закрывающий тег</p>
-      <nav class="theme-menu header__theme-menu">
-        <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
-        <ul class="theme-menu__list">
-          <li class="theme-menu__item">
-            <button type="button" data-theme="dark" class="theme-menu__button">
-              Темно
-            </button>
-          </li>
-          <li class="theme-menu__item">
-            <button
-              type="button"
-              data-theme="auto"
-              disabled
-              class="theme-menu__button"
-            >
-              Авто
-            </button>
-          </li>
-          <li class="theme-menu__item">
-            <button type="button" data-theme="light" class="theme-menu__button">
-              Светло
-            </button>
-          </li>
-        </ul>
-      </nav>
-</header>
-      <main>
-        <article class="card">
-         <h2 class="card-title">Фритрек и нулевой спринт: Подготовка к работе</h2>
-         <div class="position">
-         <img class="card-image brightness" alt="" src="./images/main1.jpg" loading="lazy">
-         <h3 class="leibel"> &lt;joy&gt;</h3>
-         </div>
-         <div class="card-text__container">
-            <p class="card-text">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу.
-              И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
-            <p class="card-text">Это было большой ошибкой недооценить сложность обучения...</p> 
-         </div>
-         <div class="container-button">
-         <button class="card__icon-button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="33" fill="none" class="like-icon">
-              <g class="heart">
-            <path class="contour" fill="var(--contour-heart)" d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"/>
-            <path class="main-body" fill="transparent" d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"/>
-            <path class="core" fill="transparent" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"/>
-            </g>
-            <path class="sparks" fill="var(--main-body-heart)" d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
-            </svg>
-         </button>
-          <button class="card__like-button"><span class="button__text">Like</span></button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Сложно сосредоточиться</title>
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/dark.css" />
+  <link rel="stylesheet" href="./styles/light.css" />
+  <link rel="icon" href="./images/favicon.ico" />
+</head>
+
+<body class="page">
+  <header class="header decorated-zone">
+    <span class=" header__REC">REC</span>
+    <nav class="header__theme-menu">
+      <ul class="header__theme-menu-list">
+        <li class="header__theme-menu-item">
+          <button class="header__theme-menu-button header__theme-menu-button_type_light">
+            День
+          </button>
+        </li>
+        <li class="header__theme-menu-item">
+          <button class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+            disabled>
+            Авто
+          </button>
+        </li>
+        <li class="header__theme-menu-item">
+          <button class="header__theme-menu-button header__theme-menu-button_type_dark">
+            Неон
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="title"> no focus</h1>
+    <p class="title__decor title__decor-header">
+      Что делать, когда не можешь делать ничего<br>
+      Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+    </p>
+  </header>
+
+  <main class="main">
+    <section class="section section__focus">
+      <h2 class="accent__title">Почему сосредоточиться так сложно</h2>
+
+      <div>
+        <div class="container">
+          <h3 class="title__decor">Многозадачность</h3>
+          <p class="text">
+            Особенно сложно сосредоточиться, когда задач много и все они — важные.
+            Где же легендарная многозадачность, когда она так нужна вам (и всем
+            нанимающим менеджерам этого мира)? А дело в том, что её просто не
+            существует. Исследователи <a href="https://dana.org/article/multicosts-of-multitasking/" class="link"
+              target="_blank">выяснили</a>, что мозгу тяжело
+            концентрироваться
+            даже на двух делах одновременно. А когда в поле внимания попадает
+            несколько важных задач, организм паникует и выделяет кортизол и
+            адреналин — «гормоны стресса». Из-за этого мы работаем невнимательно:
+            ошибаемся и быстро устаём.
+          </p>
         </div>
-        </article>
+        <div class="container">
+          <h3 class="title__decor ">Дофамин</h3>
+          <p class="text">
+            С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей
+            невозможности сосредоточиться замешана и полная противоположность
+            стрессу — дофамин. Это вещество участвует в системе вознаграждения
+            мозга. Причём тут он? Мы часто отвлекаемся от важной задачи на что-то
+            более «приятное» для мозгов. Например, смотрим лайки в соцсетях. В это
+            время и выделяется дофамин — и мы чувствуем удовольствие. Получается
+            замкнутый круг: чем больше отвлекаешься, тем больше удовольствия
+            получаешь.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section section__concentration">
+      <h2 class="accent__title concentration">Что снижает концентрацию внимания?</h2>
 
-        <article class="card">
-          <h2 class="card-title">1 спринт: Я — чистый лист</h2>
-          <div class="position">
-          <img class="card-image blur" alt="" src="./images/main2.jpg" loading="lazy" >
-          <h3 class="leibel"> &lt;fear&gt;</h3>
-          </div>
-          <div class="card-text__container">
-             <p class="card-text">На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички.
-               Один из них — страх перед чистым листом. Это, конечно же, намного сложнее, чем боязнь куска бумаги.
-               Часто за этим ощущением скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?</p>
-             <p class="card-text">Нужно было потратить много времени что бы понять что к чему</p> 
-          </div>
-          <div class="container-button">
-          <button class="card__icon-button">
-             <svg xmlns="http://www.w3.org/2000/svg" width="39" height="33" fill="none" class="like-icon">
-               <g class="heart">
-             <path class="contour" fill="var(--contour-heart)" d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"/>
-             <path class="main-body" fill="transparent" d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"/>
-             <path class="core" fill="transparent" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"/>
-             </g>
-             <path class="sparks" fill="var(--main-body-heart)" d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
-             </svg>
-          </button>
-           <button class="card__like-button"><span class="button__text">Like</span></button>
-         </div>
-         </article>
+      <div class="container multitasking">
+        <h3 class="title__decor">Многозадачность</h3>
+        <p class="text">
+          Как концентрация может снижаться из-за… концентрации? Любая стрессовая
+          ситуация (и резко меняющийся мир в целом) заставляет наш мозг
+          постоянно «сканировать» окружающую среду на предмет опасности.
+          Например, читать новости вместо работы. Но быть собранными всё время —
+          невозможно. Концентрация — мышца, и она может не выдержать, если не
+          давать ей отдохнуть.
+        </p>
+      </div>
+      <div class="container food">
+        <h3 class="title__decor">Еда</h3>
+        <p class="text">
+          «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
+          доставляют в мозг энергию и помогают ему лучше работать. Но уходит эта
+          энергия также быстро, как и приходит. А мы в результате попадаем на
+          «углеводные качели»: как только действие «быстрых углеводов»
+          заканчивается, мы чувствуем усталость и сонливость. И хотим ещё больше
+          быстрых углеводов.
+        </p>
+      </div>
+      <div class="container gadgets">
+        <h3 class="title__decor">Гаджеты</h3>
+        <p class="text">
+          Да-да, это та самая ситуация, когда на экране ноутбука — код, в
+          наушниках — подкаст, а на компьютере фоном — ещё и видео с забавными
+          утятами. В результате мозг пытается переключиться с одной задачи на
+          другую — и просто не может. А чтобы вернуться к состоянию полной
+          концентрации, человеку в среднем нужно 20 минут. Вот и получается, что
+          чем больше времени мы проводим в гаджетах, тем больше времени затем
+          нужно, чтобы вернуться к работе.
+        </p>
+      </div>
 
-         <article class="card">
-          <h2 class="card-title">1 спринт: А если не получится?</h2>
-          <div class="position">
-          <img class="card-image opacity" alt="" src="./images/main3.jpg" loading="lazy">
-          <h3 class="leibel"> &lt;doubt&gt;</h3>
-          </div>
-          <div class="card-text__container">
-             <p class="card-text">Первый проект — позади! Но это всё ещё самое начало пути.
-               Радость могла быстро померкнуть и смениться ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя.</p>
-             <p class="card-text">Ту радость и гордость за саму себя я запомню надолго</p> 
-          </div>
-          <div class="container-button">
-          <button class="card__icon-button">
-             <svg xmlns="http://www.w3.org/2000/svg" width="39" height="33" fill="none" class="like-icon">
-               <g class="heart">
-             <path class="contour" fill="var(--contour-heart)" d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"/>
-             <path class="main-body" fill="transparent" d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"/>
-             <path class="core" fill="transparent" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"/>
-             </g>
-             <path class="sparks" fill="var(--main-body-heart)" d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
-             </svg>
-          </button>
-           <button class="card__like-button"><span class="button__text">Like</span></button>
-         </div>
-         </article>
+    </section>
 
-         <article class="card">
-          <h2 class="card-title">2 спринт: Погоня за идеалом</h2>
-          <div class="position">
-          <img class="card-image saturate" alt="" src="./images/main4.jpg" loading="lazy">
-          <h3 class="leibel"> &lt;sadness&gt;</h3>
-          </div>
-          <div class="card-text__container">
-             <p class="card-text">На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди.
-               Вы могли попытаться погнаться за идеалом и понять, что он недостижим. 
-              А, может, вы вовсе и не подвержены перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать.</p>
-             <p class="card-text">Новый проект-новые сложности</p> 
-          </div>
-          <div class="container-button">
-          <button class="card__icon-button">
-             <svg xmlns="http://www.w3.org/2000/svg" width="39" height="33" fill="none" class="like-icon">
-               <g class="heart">
-             <path class="contour" fill="var(--contour-heart)" d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"/>
-             <path class="main-body" fill="transparent" d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"/>
-             <path class="core" fill="transparent" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"/>
-             </g>
-             <path class="sparks" fill="var(--main-body-heart)" d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
-             </svg>
-          </button>
-           <button class="card__like-button"><span class="button__text">Like</span></button>
-         </div>
-         </article>
+    <section class="section section__recommendations">
+      <h2 class="accent__title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
+      <div>
+        <h3 class="title__decor">5 простых (на самом деле не очень) советов</h3>
+        <div class="container">
+          <h4 class="title__decor lighter">Представьте небо и облака</h4>
 
-         <article class="card">
-          <h2 class="card-title">2 спринт: О тех, кто рядом</h2>
-          <div class="position">
-          <img class="card-image grayscale" alt="" src="./images/main5.jpg" loading="lazy">
-          <h3 class="leibel"> love</h3>
-          </div>
-          <div class="card-text__container">
-             <p class="card-text">Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира).
-               Вас окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться,
-                если очередной макет просто так не поддавался. 
-              Осваивать что-то новое легче, когда рядом есть единомышленники, не правда ли?</p>
-             <p class="card-text">Семья-это лучшая поддержка</p> 
-          </div>
-          <div class="container-button">
-          <button class="card__icon-button">
-             <svg xmlns="http://www.w3.org/2000/svg" width="39" height="33" fill="none" class="like-icon">
-               <g class="heart">
-             <path class="contour" fill="var(--contour-heart)" d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"/>
-             <path class="main-body" fill="transparent" d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"/>
-             <path class="core" fill="transparent" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"/>
-             </g>
-             <path class="sparks" fill="var(--main-body-heart)" d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
-             </svg>
-          </button>
-           <button class="card__like-button"><span class="button__text">Like</span></button>
-         </div>
-         </article>
+          <p class="text">Или листья в ручье. Тут дело в лёгкой медитации,
+            которая помогает успокоиться. Ведь часто именно тревожные мысли о сложных задачах как раз и мешают
+            эти сложные задачи делать. В такие моменты можно закрыть глаза и представить, что чистое небо — это вы,
+            а облака — тревожные мысли. И сколько бы их ни было — ясное небо всегда будет где-то там, за тучами,
+            и никуда не денется. Это упражнение поможет вернуться в настоящий момент, а не волноваться о потенциальных
+            проблемах из будущего.</p>
+        </div>
+        <div class="container">
+          <h4 class="title__decor lighter">Включите музыку</h4>
 
-         <article class="card">
-          <h2 class="card-title">3 спринт: Обходные стратегии</h2>
-          <div class="position">
-          <img class="card-image hue__rotate" alt="" src="./images/main6.jpg" loading="lazy">
-          <h3 class="leibel"> &lt;denial&gt;</h3>
-          </div>
-          <div class="card-text__container">
-             <p class="card-text">На этом курсе вы постоянно решали разные задачи. 
-              В какой-то момент вам могло показаться, что решения просто иссякли. Значит, пришло время посмотреть на задачу под другим углом.</p>
-             <p class="card-text">Сколько уже таких углов было пережито</p> 
-          </div>
-          <div class="container-button">
-          <button class="card__icon-button">
-             <svg xmlns="http://www.w3.org/2000/svg" width="39" height="33" fill="none" class="like-icon">
-               <g class="heart">
-             <path class="contour" fill="var(--contour-heart)" d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"/>
-             <path class="main-body" fill="transparent" d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"/>
-             <path class="core" fill="transparent" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"/>
-             </g>
-             <path class="sparks" fill="var(--main-body-heart)" d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
-             </svg>
-          </button>
-           <button class="card__like-button"><span class="button__text">Like</span></button>
-         </div>
-         </article>
+          <p class="text">Но не любую, и не любимую.
+            Любимая может быть связана с сильными положительными эмоциями,
+            которые тоже очень сильно отвлекают. Подойдёт тихая, спокойная,
+            умеренно-ритмичная. Можно вообще попробовать включить плейлист в «белым шумом» или нейромузыкой.</p>
+        </div>
+        <div class="container">
+          <h4 class="title__decor lighter">Прогуляйтесь</h4>
+          <p class="text">Или даже пробегитесь. Лучше найти парк или лес: один эксперимент <a
+              href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" class="link"
+              target="_blank">показал</a>,
+            что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот
+            понижается.
+            Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода
+            и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.</p>
+        </div>
+        <div class="container">
+          <h4 class="title__decor lighter">Хорошо ешьте</h4>
+          <p class="text">Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
+            которые препятствуют резким скачкам сахара в крови. Например, с высоким содержанием клетчатки:
+            овощи, ягоды, бобовые (нут, чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
+          </p>
+        </div>
+        <div class="container">
+          <h4 class="title__decor lighter">Читайте</h4>
+          <p class="text">Настоящие бумажные книги.
+            Это правда помогает с концентрацией: чтобы прочитать пост в соцсети,
+            достаточно нескольких минут или даже секунд.
+            А вот интересная книга способна затянуть и на несколько часов и круто тренирует направленное внимание.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section__img">
+      <h2 class="title__decor">А можно в картинках?</h2>
+      <div class="container__img">
+        <picture class="ocean">
+          <source srcset="./images/sunset.avif 1x , ./images/sunset-2x.avif 2x" type="image/avif">
+          <img class="image_content " src="./images/sunset.png" srcset="./images/sunset.png 1x, 
+          ./images/sunset-2x.png 2x" alt="Вид на горы и океан" loading="lazy">
+        </picture>
 
-         <article class="card">
-          <h2 class="card-title">3 спринт: Когда опускаются руки</h2>
-          <div class="position">
-          <img class="card-image contrast saturate" alt="" src="./images/main7.jpg" loading="lazy">
-          <h3 class="leibel"> &lt;acceptance&gt;</h3>
-          </div>
-          <div class="card-text__container">
-             <p class="card-text">Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. 
-              Вроде и проектную пора сдавать, и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить.
-               В такие моменты очень нужна концентрация. Вспомните, откуда вы её черпали.</p>
-             <p class="card-text">Каждый раз YouTube=Антон Птушкин=выпуск про Швейцарию,и маленькую сыроварню вблизи озера </p> 
-          </div>
-          <div class="container-button">
-          <button class="card__icon-button">
-             <svg xmlns="http://www.w3.org/2000/svg" width="39" height="33" fill="none" class="like-icon">
-               <g class="heart">
-             <path class="contour" fill="var(--contour-heart)" d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"/>
-             <path class="main-body" fill="transparent" d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"/>
-             <path class="core" fill="transparent" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"/>
-             </g>
-             <path class="sparks" fill="var(--main-body-heart)" d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
-             </svg>
-          </button>
-           <button class="card__like-button"><span class="button__text">Like</span></button>
-         </div>
-         </article>
 
-         <article class="card">
-          <h2 class="card-title">«Сейчас я здесь»</h2>
-          <div class="position">
-          <img class="card-image" alt="" src="./images/main8.jpg" loading="lazy" >
-          <h3 class="leibel"> &lt;success&gt;</h3>
-          </div>
-          <div class="card-text__container">
-             <p class="card-text">Сейчас вы уже очень много знаете о вёрстке. Но это только начало. 
-              Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. 
-              Вёрстка — это целый мир. И этот мир постоянно меняется. 
-              Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть результат.</p>
-             <p class="card-text">IT как темный лес из котого ты пытаешься выбраться...затягивает :) </p> 
-          </div>
-          <div class="container-button">
-          <button class="card__icon-button">
-             <svg xmlns="http://www.w3.org/2000/svg" width="39" height="33" fill="none" class="like-icon">
-               <g class="heart">
-             <path class="contour" fill="var(--contour-heart)" d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"/>
-             <path class="main-body" fill="transparent" d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"/>
-             <path class="core" fill="transparent" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"/>
-             </g>
-             <path class="sparks" fill="var(--main-body-heart)" d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
-             </svg>
-          </button>
-           <button class="card__like-button"><span class="button__text">Like</span></button>
-         </div>
-         </article>
-      </main>
-    
-    <footer class="footer">
-      <button class="footer__button" type="button" 
-      onclick="window['dialog'].showModal()" 
-      aria-controls="dialog">
-        <svg viewBox="0 0 21 21" width="21" fill=#000 class="disketa">
-          <use href="svg\floppy (1) (1).svg#disketa" >
-          </svg>
-        <span class="button__text">cохранить на память</span>
-      </button>
-    </footer>
+        <picture class="ice__cream">
+          <source srcset="./images/ice-cream.avif 1x , ./images/ice-cream-2x.avif 2x" type="image/avif">
+          <img class="image_content" src="./images/ice-cream.png" srcset="./images/ice-cream.png 1x, 
+          ./images/ice-cream-2x.png 2x" alt="Шарики мороженного в тарелке" loading="lazy">
+        </picture>
 
-    <dialog  class="dialog" id="dialog">
-      <svg viewBox="0 0 21 21"  fill=#000 class="disketa__dialog">
-        <use href="svg\floppy (1) (1).svg#disketa" >
-        </svg>
-      <h3 class="dialog__text">Вставьте дискету, чтобы продолжить</h3>
-      <button class="footer__button dialog__button" type="button" onclick="window['dialog'].close()">
-        <span class="button__text" >ок</span>
-      </button>
-    </dialog>
 
-    <script src="./scripts/like.js"></script>
-  </body>
+        <picture class="cassette">
+          <source type="image/avif" srcset="./images/tape.avif 1x,
+           ./images/tape-2x.avif 2x">
+          <img class="image_content" src="./images/tape.png" srcset="./images/tape.png 1x ,
+            ./images/tape-2x.png 2x " alt="касета" loading="lazy">
+        </picture>
+
+
+        <picture class="books">
+          <source type="image/avif" srcset="./images/books.avif 1x,
+           ./images/books-2x.avif 2x">
+          <img class="image_content" src="./images/books.png" alt="Стопка книг"
+            srcset="./images/books.png 1x, ./images/books-2x.png 2x" loading="lazy">
+        </picture>
+
+
+        <picture class="street">
+          <source type="image/avif" srcset="./images/street.avif 1x,
+            ./images/street-2x.avif 2x">
+          <img class="image_content" src="./images/street.png" alt="Вид на улицу" srcset="./images/street.png 1x,
+           ./images/street-2x.png 2x" loading="lazy">
+        </picture>
+      </div>
+    </section>
+  </main>
+  <footer class="footer decorated-zone ">
+
+    <h2 class="title-footer">focus</h2>
+  </footer>
+  <script src="./scripts/script.js"></script>
+</body>
+
 </html>
-
