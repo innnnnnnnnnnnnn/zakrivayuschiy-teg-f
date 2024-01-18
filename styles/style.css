@@ -129,8 +129,8 @@
 
 }
 
-@media (width <=375px){
-  .title{
+@media (width <=375px) {
+  .title {
     margin-top: 120px;
   }
 }
@@ -348,7 +348,7 @@
 }
 
 @media (width <=375px) {
-  .disketa{
+  .disketa {
     width: 28px;
     height: 28px;
 
