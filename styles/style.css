@@ -126,6 +126,7 @@
   font-family: var(--PressStart2P, serif);
   margin: 136px 0 20px;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  font-weight: 400;
 
 }
 
@@ -332,7 +333,7 @@
   display: flex;
   justify-content: center;
   margin-block-start: 54px;
-  margin-block-end: 20px;
+  margin-block-end: 105px;
 
 }
 
@@ -410,7 +411,7 @@
 .button__text {
   /*Текст кнопки*/
   font-family: var(--PressStart2P, serif);
-  font-weight: var(--font-weight-text, 400);
+  font-weight: 400;
   font-size: 14px;
   margin-inline-start: 8px;
   position: relative;
@@ -423,13 +424,10 @@
 
 .dialog {
   background-color: var(--background, #fff);
-  border: 2px solid #000;
   max-width: 357px;
   padding: 29px;
-  color: var(--accent-color);
-  font-family: var(--PressStart2P, serif);
-  font-size: 14px;
-  font-weight: var(--font-weight-text);
+  color: var(--accent-color,#000);
+  border: 2px solid var(--accent-color);
 
 }
 
@@ -453,11 +451,10 @@
 }
 
 .dialog__text {
-  color: var(--accent-color, #000);
   font-family: var(--PressStart2P, serif);
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--font-weight-text,400);
   line-height: 150%;
   /* 21px */
   text-transform: uppercase;
