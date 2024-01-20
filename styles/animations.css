@@ -75,14 +75,14 @@
 
 .card__icon-button:hover .core {
   /*сердцевина при наведении*/
-  fill: var(--contour-heart);
+  fill: var(--contour-heart,#000);
   transition: 0.3s linear;
 
 }
 
 .card__icon-button:active .core {
   /*при нажатии и удерживании на сердце*/
-  fill: var(--main-body-heart);
+  fill: var(--main-body-heart,red);
   transition: 0.3s linear;
 
 }
@@ -96,35 +96,35 @@
 
 .card__icon-button:hover .main-body {
   /*при наведении*/
-  fill: var(--contour-heart);
+  fill: var(--contour-heart,#000);
   transition: 0.3s 0.05s linear;
 
 }
 
 .card__icon-button:active .main-body {
   /*при нажатии и удерживании на сердце*/
-  fill: var(--main-body-heart);
+  fill: var(--main-body-heart,red);
   transition: 0.3s 0.05s linear;
 
 }
 
 .like-icon.is-liked .core {
   /*клик по сердцу сердцевина*/
-  fill: var(--main-body-heart);
+  fill: var(--main-body-heart,red);
   transition: 0.3s linear;
 
 }
 
 .like-icon.is-liked .main-body {
   /*клик по сердцу тело*/
-  fill: var(--main-body-heart);
+  fill: var(--main-body-heart,red);
   transition: 0.3s 0.05s linear;
 
 }
 
 .like-icon.is-liked .contour {
   /*клик по сердцу контур*/
-  fill: var(--main-body-heart);
+  fill: var(--main-body-heart,red);
   transition: 0.3s 0.06s linear;
 
 }
@@ -140,7 +140,7 @@
 }
 
 .like-icon:focus-visible {
-  outline: 2px solid var(--accent-color);
+  outline: 2px solid var(--accent-color,#000);
   transition: 0.3s ease;
 
 }

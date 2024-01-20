@@ -20,7 +20,13 @@
   font-family: var(--Inter, serif);
   color: var(--accent-color, #000);
   font-variation-settings: "wght" var(--font-weight-text, 400) "Inter", sans-serif;
-  background-image: var(--background-image);
+  background-image: var(--background-image, repeating-linear-gradient(
+    to left,
+    #d3d3d3 0 2px,
+    transparent 2px 4px
+  ),
+  repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a));
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -90,7 +96,7 @@
   width: 0;
   height: 3px;
   margin-block-start: 3px;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color,#000);
   transition: width 0.3s;
 
 }
@@ -103,7 +109,7 @@
 
 .theme-menu__button:focus-visible::after {
   width: 100%;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color,#000);
   animation: loader 0.2s linear 0.5s;
 
 }
@@ -188,7 +194,7 @@
   font-style: normal;
   font-weight: var(--font-weight-text, 400);
   line-height: 21px;
-  font-family: var(--Inter);
+  font-family: var(--Inter,sans-serif);
 
 }
 
@@ -220,7 +226,7 @@
 .leibel {
   position: absolute;
   font-family: var(--PressStart2P, serif);
-  color: var(--accent-color);
+  color: var(--accent-color,#000);
   opacity: 0.5;
   top: 25px;
   right: 25px;
@@ -242,7 +248,7 @@
 .card__like-button {
   /*Like*/
   background: transparent;
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-color,#000);
   padding: 9px 17px;
   font-family: var(--PressStart2P, serif);
   font-size: 14px;
@@ -310,7 +316,7 @@
 }
 
 .card__icon-button:focus-visible {
-  outline: 2px solid var(--accent-color);
+  outline: 2px solid var(--accent-color,#000);
   transition: 0.3s ease;
   
 
@@ -342,7 +348,7 @@
   height: 21px;
   position: relative;
   z-index: 1;
-  color: var(--button-text-color);
+  color: var(--button-text-color,#fff);
   mix-blend-mode: difference;
   transition: color 0.5s;
 
@@ -416,7 +422,7 @@
   margin-inline-start: 8px;
   position: relative;
   z-index: 1;
-  color: var(--button-text-color);
+  color: var(--button-text-color,#fff);
   transition: color 0.5s;
   mix-blend-mode: difference;
 
@@ -427,7 +433,7 @@
   max-width: 357px;
   padding: 29px;
   color: var(--accent-color,#000);
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-color,#000);
 
 }
 
